@@ -31,7 +31,7 @@ while jawabUlang.lower() == "y" :
             print("5.SHELL 1L                  @Rp46.000")
             print("=================================================")
             pilihBarang = int(input(">>PILIH LIST BARANG       :"))
-            if int(pilihBarang) < 0 or int(pilihBarang) > 6: # cek jika kondisi yang dipilih bukan 1 sampai 6
+            if int(pilihBarang) < 0 or int(pilihBarang) > 5: # cek jika kondisi yang dipilih bukan 1 sampai 6
                 print("BARANG TIDAK DITEMUKAN !")
             else:
                jumlah = int(input(">>JUMLAH BARANG           :")) 
